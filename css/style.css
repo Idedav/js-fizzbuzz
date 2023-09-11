@@ -1,0 +1,35 @@
+body{
+    background-color: #083B4C;
+}
+
+.dc-container{
+    height: 1000px;
+}
+
+h1{
+    font-size: 4rem;
+    color: white;
+}
+
+.box{
+    background-color: #1389B2;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 1.3rem;
+}
+
+.box.fizz{
+    background-color: #0CD6A1;
+}
+
+.box.buzz{
+    background-color: #FFD166;
+}
+
+.box.fizz-buzz{
+    background-color: #F0466F;
+}
+
