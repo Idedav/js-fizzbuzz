@@ -1,21 +1,21 @@
 const boxesContainer = document.querySelector('.boxes')
 
-for(let i = 0; i < 100; i++){
+for(let i = 1; i <= 100; i++){
     
     const box = document.createElement('div');
     box.classList.add('box');
 
-    if(!((i + 1) % 3) && !((i + 1) % 5)){
+    if(!((i) % 3) && !((i) % 5)){
         box.classList.add('fizz-buzz')
         box.append('FizzBuzz')
-    }else if(!((i + 1) % 3)){
+    }else if(!((i) % 3)){
         box.classList.add('fizz')
         box.append('Fizz')
-    }else if(!((i + 1) % 5)){
+    }else if(!((i) % 5)){
         box.classList.add('buzz')
         box.append('Buzz')
     }else{
-        box.append(i + 1)
+        box.append(i)
     }
 
     boxesContainer.append(box)
